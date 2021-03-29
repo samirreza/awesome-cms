@@ -8,6 +8,7 @@ services:
         volumes:
             - ./:/var/www
             - ./docker/php/custome-php-ini.ini:/usr/local/etc/php/conf.d/custome-php-ini.ini
+            - ./docker/php/custome-php-fpm.conf:/usr/local/etc/php-fpm.d/www2.conf
         networks:
             - cms
 

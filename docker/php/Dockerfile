@@ -3,7 +3,8 @@ FROM php:8-fpm
 RUN apt-get update && apt-get install -y git \
     libzip-dev \
     zip \
-    libpq-dev
+    libpq-dev \
+    nano
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
