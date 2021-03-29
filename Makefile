@@ -13,3 +13,5 @@ shell:
 install:
 	docker-compose exec app composer install
 
+db:
+	docker-compose exec app php bin/console d:m:m -n
