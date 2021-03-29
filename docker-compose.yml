@@ -7,6 +7,7 @@ services:
         working_dir: /var/www/
         volumes:
             - ./:/var/www
+            - ./docker/php/custome-php-ini.ini:/usr/local/etc/php/conf.d/custome-php-ini.ini
         networks:
             - cms
 
