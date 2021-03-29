@@ -9,6 +9,7 @@
     - add possibility for customizing php extensions
     - add possibility for customizing php.ini file
     - use PostgreSQL
+    - use Makefile
     - setting db username and password secured
     - work and understand different env files and their priority
     - tune fpm
