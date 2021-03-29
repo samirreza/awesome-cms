@@ -2,7 +2,7 @@
 
 ## TODOs
 
-- [ ]  dockerize the project with docker compose and make file
+- [x]  dockerize the project with docker compose and make file
     - use fpm
     - access to NGINX log
     - use php 8
