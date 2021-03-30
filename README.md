@@ -12,7 +12,7 @@
     - use Makefile
     - setting db username and password secured
     - tune fpm
-- [ ]  create category and post entity with minimum properties
+- [x]  create category and post entity with minimum properties
     - use make bundle
 - [ ]  create crud api controllers and forms for category and post
     - use API Platform
